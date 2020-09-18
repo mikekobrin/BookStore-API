@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BookStore_API.Data
@@ -13,4 +14,5 @@ namespace BookStore_API.Data
 
         public virtual IList<Book> Books { get; set; }
     }
+    
 }
