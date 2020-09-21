@@ -40,8 +40,8 @@ namespace BookStore_API.Services
 
         public async Task<Book> FindById(int id)
         {
-            var author = await _db.Books.FindAsync(id);
-            return author;
+            var book = await _db.Books.FindAsync(id);
+            return book;
         }
 
         public async Task<bool> Save()

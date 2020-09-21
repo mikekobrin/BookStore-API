@@ -1,0 +1,4 @@
+2020-09-18 16:34:28.2070 | DEBUG | Books - GetBooks: Attempted call
+2020-09-18 16:34:29.8251 | DEBUG | Books - GetBooks: Successful
+2020-09-18 16:34:41.9462 | DEBUG | Books - GetBook: Attempted call for id 1
+2020-09-18 16:34:42.0787 | DEBUG | Books - GetBook: Failed to retrieve record with id: 1
