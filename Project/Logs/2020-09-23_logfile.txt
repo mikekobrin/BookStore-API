@@ -1,0 +1,4 @@
+2020-09-23 10:56:07.0496 | DEBUG | Users - Login: Login attempted from user string.
+2020-09-23 10:56:07.1653 | DEBUG | Users - Login: string Not Authenticated.
+2020-09-23 11:07:08.5929 | DEBUG | Users - Login: Login attempted from user Admin.
+2020-09-23 11:07:11.0648 | DEBUG | Users - Login: Admin Sucessfully Authenticated.
