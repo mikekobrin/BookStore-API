@@ -1,0 +1,12 @@
+2020-09-28 09:26:47.1528 | DEBUG | Users - Login: Login attempted from user customer@bookstore.com.
+2020-09-28 09:26:47.2642 | DEBUG | Users - Login: customer@bookstore.com Not Authenticated.
+2020-09-28 09:28:54.1586 | DEBUG | Users - Login: Login attempted from user customer@gmail.com.
+2020-09-28 09:28:54.1842 | DEBUG | Users - Login: customer@gmail.com Not Authenticated.
+2020-09-28 09:29:15.9591 | DEBUG | Users - Login: Login attempted from user customer@gmail.com.
+2020-09-28 09:29:15.9807 | DEBUG | Users - Login: customer@gmail.com Not Authenticated.
+2020-09-28 09:29:17.8701 | DEBUG | Users - Login: Login attempted from user customer@gmail.com.
+2020-09-28 09:29:17.8869 | DEBUG | Users - Login: customer@gmail.com Not Authenticated.
+2020-09-28 09:37:12.6415 | DEBUG | Users - Login: Login attempted from user mikekobrin@gmail.com.
+2020-09-28 09:37:12.8649 | DEBUG | Users - Login: mikekobrin@gmail.com Sucessfully Authenticated.
+2020-09-28 09:37:40.9756 | DEBUG | Users - Login: Login attempted from user mikekobrin@gmail.com.
+2020-09-28 09:37:41.0234 | DEBUG | Users - Login: mikekobrin@gmail.com Sucessfully Authenticated.

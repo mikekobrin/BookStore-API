@@ -1,0 +1,5 @@
+2020-09-25 08:51:59.8189 | DEBUG | Users - Register: Registration attempted from user mikekobrin@gmail.com.
+2020-09-25 08:52:00.1833 | DEBUG | Users - Register: mikekobrin@gmail.com Sucessfully Registered.
+2020-09-25 08:55:58.3728 | DEBUG | Users - Register: Registration attempted from user mikekobrin@gmail.com.
+2020-09-25 08:56:06.4777 | DEBUG | Users - Register: DuplicateUserName User name 'mikekobrin@gmail.com' is already taken..
+2020-09-25 08:56:06.4908 | ERROR | Users - Register: User registration attempt failed.

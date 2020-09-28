@@ -2,3 +2,13 @@
 2020-09-23 10:56:07.1653 | DEBUG | Users - Login: string Not Authenticated.
 2020-09-23 11:07:08.5929 | DEBUG | Users - Login: Login attempted from user Admin.
 2020-09-23 11:07:11.0648 | DEBUG | Users - Login: Admin Sucessfully Authenticated.
+2020-09-23 17:04:28.5490 | DEBUG | Users - Register: Registration attempted from user user@example.com.
+2020-09-23 17:04:28.6261 | DEBUG | Users - Register: PasswordRequiresNonAlphanumeric Passwords must have at least one non alphanumeric character..
+2020-09-23 17:04:28.6261 | DEBUG | Users - Register: PasswordRequiresDigit Passwords must have at least one digit ('0'-'9')..
+2020-09-23 17:04:28.6523 | DEBUG | Users - Register: PasswordRequiresUpper Passwords must have at least one uppercase ('A'-'Z')..
+2020-09-23 17:04:28.6664 | DEBUG | Users - Register: user@example.com User registration attempt failed.
+2020-09-23 17:09:07.0185 | DEBUG | Users - Register: Registration attempted from user user@example.com.
+2020-09-23 17:09:10.0032 | DEBUG | Users - Register: PasswordRequiresNonAlphanumeric Passwords must have at least one non alphanumeric character..
+2020-09-23 17:09:11.1243 | DEBUG | Users - Register: PasswordRequiresDigit Passwords must have at least one digit ('0'-'9')..
+2020-09-23 17:09:12.2035 | DEBUG | Users - Register: PasswordRequiresUpper Passwords must have at least one uppercase ('A'-'Z')..
+2020-09-23 17:09:12.8977 | ERROR | Users - Register: User registration attempt failed.

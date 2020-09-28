@@ -1,0 +1,53 @@
+﻿@page "/Register"
+@using BookStor_UI.Models
+@using BookStor_UI.Contracts
+
+@inject IAuthenticationRepository _authRepo
+@inject NavigationManager _navMan
+
+<div class="card">
+    <h3 class="card-title">Register Now</h3>
+    @if (!response)
+    {
+        <div class="alert alert-danger">
+              <p>Something went wrong with the registration attempt.</p>
+        </div>
+    }
+    <div class="card-body">
+        <EditForm Model="Model" OnValidSubmit="HandleRegistration">
+            <DataAnnotationsValidator></DataAnnotationsValidator>
+            <ValidationSummary></ValidationSummary>
+            <div class="form-group">
+                <label for "email">Email Address</label>
+                <InputText id="email" class="form-control" @bind-Value="Model.EmailAddress" />
+                <ValidationMessage For="@(() => Model.EmailAddress)" />
+            </div>
+            <div class="form-group">
+                <label for "password">Password</label>
+                <InputText id="password" type="password" class="form-control" @bind-Value="Model.Password" />
+                <ValidationMessage For="@(() => Model.Password)" />
+            </div>
+            <div class="form-group">
+                <label for "confirmpassword">Confirm Password</label>
+                <InputText id="confirmpassword" type="password" class="form-control" @bind-Value="Model.ConfirmPassword" />
+                <ValidationMessage For="@(() => Model.ConfirmPassword)" />
+            </div>
+            <button type="submit"class="btn btn-primary btn-block">Submit</button>
+        </EditForm>
+    </div>
+
+</div>
+
+@code {
+    private RegistrationModel Model = new RegistrationModel();
+    bool response = true;
+
+    private async Task HandleRegistration()
+    {
+        response = await _authRepo.Register(Model);
+        if (response)
+        {
+            _navMan.NavigateTo("/login");
+        }
+    }
+}

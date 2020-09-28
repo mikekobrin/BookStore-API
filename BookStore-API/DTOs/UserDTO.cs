@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -7,7 +8,12 @@ namespace BookStore_API.DTOs
 {
     public class UserDTO
     {
-        public string UserName { get; set; }
+        [Required]
+        [EmailAddress]
+        public string EmailAddress { get; set; }
+        [Required]
+        [StringLength(20, ErrorMessage = "Your password is limited to {2} to {1} characters", MinimumLength = 6)]
+        [DataType(DataType.Password) ]
         public string Password { get; set; }
     }
 }
